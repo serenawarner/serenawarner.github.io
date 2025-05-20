@@ -1,14 +1,19 @@
 /* CSS styles */
 h1 {
-  color: #e4b4b4;
+  font-family: Georgia, serif;
+  color: #83a888;
   font-size: 36px;
 }
 h2 {
-  font-family: 	Times New Roman, serif;
-  color: #9da993;
-  font-size: 16px;
+  font-family: Trebuchet MS, sans-serif;
+  color: #6b4b3e;
+  font-size: 20px;
 }
 body {
     padding: 40px;
-    background: #fff9f3;
+    background: #fff8f5;
+  
+    font-family: Times New Roman, serif;
+    font-size: 16px;
+    color: #345447;
 }
