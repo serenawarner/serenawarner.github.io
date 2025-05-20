@@ -10,5 +10,6 @@ h2 {
   font-size: 16px;
 }
 body {
-  background: linear-gradient(to bottom right, #D7E2D2, #DDD2E2);
+    padding: 40px;
+    background: linear-gradient(to bottom right, #D7E2D2, #DDD2E2);
 }
