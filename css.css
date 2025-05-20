@@ -1,0 +1,14 @@
+/* CSS styles */
+h1 {
+  color: #668a57;
+  font-size: 36px;
+  
+}
+h2 {
+  font-family: 	Times New Roman, serif;
+  color: #93B286;
+  font-size: 16px;
+}
+body {
+  background: linear-gradient(to bottom right, #D7E2D2, #DDD2E2);
+}
