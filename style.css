@@ -1,15 +1,15 @@
 /* CSS styles */
 h1 {
-  color: #668a57;
+  color: #e4b4b4;
   font-size: 36px;
   
 }
 h2 {
   font-family: 	Times New Roman, serif;
-  color: #93B286;
+  color: #9da993;
   font-size: 16px;
 }
 body {
     padding: 40px;
-    background: linear-gradient(to bottom right, #D7E2D2, #DDD2E2);
+    background: #e3e8e9;
 }
