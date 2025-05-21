@@ -83,3 +83,44 @@ a.download-btn:hover {
     height: auto;
   }
 }
+.carousel {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.carousel-card {
+  display: none;
+  padding: 20px;
+  background-color: #fff8f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: #345447;
+  font-size: 1rem;
+}
+.carousel-card.active {
+  display: block;
+}
+.carousel-buttons {
+  margin-top: 20px;
+}
+.carousel-buttons button {
+  background-color: #83a888;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+.carousel-buttons button:hover {
+  background-color: #6f9376;
+}
+.content p {
+  font-size: 1.05em;
+}
+.content a {
+  color: #6b4b3e;
+  text-decoration: underline;
+}
