@@ -1,67 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>About - Serena Warner</title>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="icon" type="image/png" href="favicon.png" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </head>
+  <head>
+    <title>About - Serena Warner</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-    <body>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="research.html">Research</a>
-            <a href="CV.html">CV</a>
-            <a href="contact.html">Contact Me</a>
-            <a href="fun.html">Fun</a>
-        </nav>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About Me</a>
+      <a href="research.html">Research</a>
+      <a href="CV.html">CV</a>
+      <a href="contact.html">Contact Me</a>
+      <a href="fun.html">Fun</a>
+    </nav>
 
-        <div class="content">
-            <h1>About Me</h1>
+    <div class="content">
+      <div class="about-header">
+        <h1>About Me</h1>
+      </div>
 
-            <img src="selfie.jpg" alt="Serena Warner" class="profile-pic" style="width: 300px; height: auto;" />
+      <div class="about-layout">
+        <aside class="about-sidebar">
+          <img src="selfie.jpg" alt="Serena Warner" class="profile-pic about-pic" />
 
+          <div class="about-card">
+            <h2>Quick Facts</h2>
+            <ul class="canon-list">
+              <li><strong>School:</strong> College of Wooster</li>
+              <li><strong>Major:</strong> Computer Science</li>
+              <li><strong>Minors:</strong> Data Science/Statistics, Mathematics</li>
+              <li><strong>Focus:</strong> cognition, identity, interpretable AI</li>
+            </ul>
+          </div>
+
+          <div class="about-card">
+            <h2>Links</h2>
+            <div class="pill-links">
+              <a href="CV.html">CV</a>
+              <a href="research.html">Research</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+        </aside>
+
+        <main class="about-main">
+          <section class="about-card">
             <p>
-                My research focuses on leveraging machine learning to enhance social understanding and 
-                foster meaningful connections. I am particularly drawn to projects that use data to support 
-                self-reflection, identity exploration, and interpersonal understanding, whether through 
-                interactive AI systems or experimental prototypes.
+              My research focuses on leveraging <strong>computational methods</strong> to support <strong>cognition and social understanding</strong>.
+              I am particularly drawn to projects that use data to support <strong>self-reflection, identity exploration, and interpersonal understanding</strong>.
             </p>
+          </section>
 
+          <section class="about-card">
             <p>
-                For my year-long Independent Study (Wooster's undergraduate thesis), I plan to apply 
-                unsupervised machine learning to large-scale text data to discover patterns in cognitive 
-                style and personality. The goal is to identify clusters that reveal how people process 
-                and communicate information, then explore how those patterns relate to learning needs. 
-                The work aims to inform the design of adaptive educational systems and accessibility 
-                tools that can adjust to diverse cognitive profiles. This project will be published by 
-                the end of my undergraduate experience, and I will be presenting it at Wooster's I.S. 
-                Symposium.
+              For my <strong>Independent Study</strong>, I am using Big Five personality data to create proxy estimates for the eight Jungian cognitive functions.
+              Using these measures, I run PCA to investigate whether the Jungian cognitive functions collapse into fewer dimensions and identify what those dimensions could represent, given the two frameworks applied.
+              <strong>This work aims to explore how machine learning can potentially help revisit lost psychological theories and/or discover new ones.</strong>
+              This project will be published by March 2026 by Open Works at the College of Wooster, and I will be presenting it at Wooster's I.S. Symposium.
+              <strong>This work will be presented as a poster at the National Conference on Undergraduate Research (NCUR) for April 2026.</strong>
             </p>
+          </section>
 
+          <section class="about-card">
             <p>
-                Outside the classroom, I contribute as a STEM Success Initiative Intern, STEM Zone Intern, 
-                teaching assistant, and student leader in organizations including Women's Club Rugby and 
-                the Google Developer Student Club. I am passionate about creating technology spaces that are 
-                intuitive, expressive, and centered on the human experience.
+              Outside of research, I am constantly looking to support STEM education.
+              I work as a <strong>STEM Success Initiative (SSI) Intern</strong> with the goal of increasing confidence in underrepresented students across STEM fields.
+              Within SSI, I've also worked as a <strong>STEM Zone Intern</strong>, similar to a teaching assistant, assisting students in and out of introductory computer science courses.
+              In my senior year, I have served as a <strong>teaching assistant</strong> in a first year seminar course, focused on exploring technology in society,
+              and in the Junior Independent Study course, preparing juniors for their senior Independent Study.
             </p>
+          </section>
 
+          <section class="about-card">
             <p>
-                I plan to pursue a PhD with a program that would allow me to continue and expand my current 
-                research on cognitive styles and/or explore my other research interests in neurodivergence 
-                experience and online miscommunication minimization.
+              Outside the lab, I act as a student leader in the <strong>College of Wooster's Google Developer Groups</strong> as vice president.
+              I spend my free time playing various video games, journaling, and watching different TV shows.
             </p>
-        
-        <blockquote>
-            <em>“I want to build systems that help people recognize themselves more clearly — not flatten 
-                them into categories, but give them something to hold onto in the fog.”</em>
-        </blockquote>
+          </section>
 
+          <section class="about-card highlight">
             <p>
-                Thanks for stopping by. Feel free to explore my projects or reach out.
+              <strong>I plan to pursue a PhD</strong> with a program that would allow me to continue and explore my research interests in cognitive science,
+              computational neuropsychology, and interpretable AI modeling.
+              I’m especially interested in interpretable models of human cognition and identity.
             </p>
-        </div>
-    </body>
+          </section>
+
+          <blockquote class="about-quote">
+            <em>“I want to build systems that help people recognize themselves more clearly — not flatten them into categories, but give them something to hold onto in the fog.”</em>
+          </blockquote>
+
+          <section class="about-card">
+            <p>
+              Thanks for getting to know me! Feel free to explore my projects or reach out.
+            </p>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
 </html>
-

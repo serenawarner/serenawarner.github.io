@@ -6,24 +6,48 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+
   <body>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="index.html" class="active">Home</a>
       <a href="about.html">About Me</a>
       <a href="research.html">Research</a>
       <a href="CV.html">CV</a>
       <a href="contact.html">Contact Me</a>
       <a href="fun.html">Fun</a>
     </nav>
+
     <div class="content">
-      <h1>Serena Warner</h1>
-      <img src="portrait.jpg" alt="Serena" class="profile-pic">
-      <h2>Welcome to my website</h2>
-      <p>I'm Serena Warner, a senior at The College of Wooster majoring in Computer Science with minors in Mathematics and Statistical & Data Sciences.</p>
-      <p>
-        🔗 <a href="https://www.linkedin.com/in/serena-warner-877647300" target="_blank">LinkedIn</a> |
-        👩‍💻 <a href="https://github.com/serenawarner" target="_blank">GitHub</a>
-      </p>
+      <div class="home-layout">
+        <aside class="home-sidebar">
+          <img src="portrait.jpg" alt="Serena" class="profile-pic">
+
+          <div class="home-card">
+            <h1 class="home-name">Serena Warner</h1>
+            <p class="home-tagline">CS @ Wooster • cognition + identity • interpretable AI</p>
+
+            <div class="home-links">
+              <a href="https://www.linkedin.com/in/serena-warner-877647300" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://github.com/serenawarner" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </aside>
+
+        <main class="home-main">
+          <section class="home-card">
+            <h2>Welcome</h2>
+            <p>
+              I’m Serena, a computer science student at the College of Wooster interested in using computational methods to support cognition, identity exploration, and social understanding.
+              My Independent Study uses Big Five personality data to estimate Jungian cognitive functions and apply PCA to investigate whether these functions collapse into fewer meaningful dimensions.
+              I also work in STEM education and mentorship, and I plan to pursue a PhD in cognitive science, computational neuropsychology, and interpretable AI.
+            </p>
+
+            <p class="home-cta">
+              Start here: <a href="research.html">Research</a> or <a href="about.html">About Me</a>.
+            </p>
+          </section>
+        </main>
+      </div>
     </div>
-    </body>
+  </body>
 </html>

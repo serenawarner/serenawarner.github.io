@@ -1,92 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Projects - Serena Warner</title>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="icon" type="image/png" href="favicon.png" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </head>
-    
+  <head>
+    <title>Projects - Serena Warner</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-    <body>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="research.html">Research</a>
-            <a href="CV.html">CV</a>
-            <a href="contact.html">Contact Me</a>
-            <a href="fun.html">Fun</a>
-        </nav>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="CV.html">CV</a>
+      <a href="contact.html">Contact Me</a>
+      <a href="fun.html">Fun</a>
+    </nav>
 
-        <div class="content">
-        <h1>Research and Projects</h1>
+    <div class="content">
+      <div class="page-header">
+        <h1>Research & Projects</h1>
+        <p>
+          My research interests focus on understanding diverse human experiences through cognition and computational methods.
+          I’m especially interested in cognitive personality, neurodivergent experiences with AI, and models that support interpersonal understanding
+          (e.g., predicting perceived tone in messages).
+        </p>
+      </div>
 
-        <p>My research interests lie in exploring human experience through machine learning methods. I want 
-            to be able to use my research in order to increase accessibility in workplaces and educational spaces. 
-            Currently, I'm interested in investigating the neurodivergent experience with AI, personality 
-            through past theories, and models that help communication between individuals, such as a model 
-            predicting percieved tone in messages.</p>
+      <div class="project-grid">
 
-        <div class="carousel">
-            <div class="carousel-card active">
-                <h2>🧠 MBTI Text Classification</h2>
-                <p>This Independent Study project applies supervised machine learning, specifically Support Vector Machines (SVM) and Logistic Regression, to classify Myers-Briggs personality types based on forum text. Instead of using the four-letter MBTI format, this project uses cognitive function theory, as introduced by Carl Jung and further developed by John Beebe, to model six different function-based classification schemes.</p>
-                <p><strong>Skills:</strong> Python, NLP, SVM</p>
-                <a href="Junior_I_S__Final.pdf" target="_blank">Read Paper</a>
-            </div>
+        <article class="project-card featured">
+          <div class="project-top">
+            <h2>🧠 Modeling the Eight Cognitive Functions Using Carl Jung and the Big Five Taxonomy</h2>
+            <span class="badge">Senior Independent Study</span>
+          </div>
+          <p>
+            This Independent Study project uses computational modeling to estimate Jungian cognitive functions from Big Five personality data.
+            Using these proxy estimates, I apply PCA to explore whether the eight cognitive functions reduce to fewer interpretable dimensions.
+            This work investigates how machine learning can be used to revisit and empirically test long-standing psychological theories.
+          </p>
+          <p class="skills"><strong>Skills:</strong> Python, pandas, NumPy, Matplotlib, scikit-learn, PCA</p>
+          <div class="project-links">
+            <a href="#" class="disabled" aria-disabled="true">Paper in progress</a>
+          </div>
+        </article>
 
-            <div class="carousel-card">
-                <h2>💉 Diabetes Diagnosis Analysis</h2>
-                <p>For my Applied Statistics course, we had to do a project analyzing a dataset. I chose a dataset using the Behavioral Risk Factor Surveillance System (BRFSS) collected by the Centers for Disease Control and Prevention (CDC) focused on analyzing which medical and lifestyle factors can impact having a diabetes diagnosis. Through logistic regression, I found that diabetes diagnosis has relationships with age, high blood pressure, high cholesterol, physical activity, heavy alcohol consumption, and income.</p>
-                <p><strong>Skills:</strong> R, Stats, Data Science</p>
-                <a href="Final_SerenaWarner.pdf" target="_blank">Read Paper</a>
-            </div>
+        <article class="project-card">
+          <div class="project-top">
+            <h2>🎭 Predicting Myers-Briggs Types with Cognitive Functions and Text Input</h2>
+            <span class="badge">Junior Independent Study</span>
+          </div>
+          <p>
+            This Junior Independent Study project applies supervised machine learning (SVM + Logistic Regression) to classify Myers-Briggs personality types based on forum text.
+            Instead of the four-letter MBTI format, the project uses cognitive function theory (Carl Jung; John Beebe) to model six function-based classification schemes.
+          </p>
+          <p class="skills"><strong>Skills:</strong> Python, pandas, Matplotlib, NumPy, NLP, SVM, Logistic Regression</p>
+          <div class="project-links">
+            <a href="Junior_I_S__Final.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+            <a href="https://github.com/serenawarner/Myers-Briggs-Modeling" target="_blank" rel="noopener noreferrer">Repository</a>
+          </div>
+        </article>
 
-            <div class="carousel-card">
-                <h2>🏉 Rugby Match Predictor</h2>
-                <p>I worked with a partner in my Machine Intelligence course to complete a rugby match results prediction model. We explored different modeling, with our best performance done by the decision tree model. We were able to achieve a 75% accuracy with this model.</p>
-                <p><strong>Skills:</strong> Python, Scikit-learn, Modeling</p>
-                <a href="Union_Rugby_Match_Result_Prediction_Model.pdf" target="_blank">Read Paper</a>
-            </div>
+        <article class="project-card">
+          <div class="project-top">
+            <h2>💉 Analyzing Risk Factors in Diabetes Diagnosis</h2>
+            <span class="badge">Applied Statistics</span>
+          </div>
+          <p>
+            Using BRFSS data (CDC), I investigated medical and lifestyle factors associated with diabetes diagnosis.
+            Through logistic regression, I found relationships with age, high blood pressure, high cholesterol, physical activity,
+            heavy alcohol consumption, and income.
+          </p>
+          <p class="skills"><strong>Skills:</strong> R, Statistics, Logistic Regression</p>
+          <div class="project-links">
+            <a href="Final_SerenaWarner.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+          </div>
+        </article>
 
-            <div class="carousel-card">
-                <h2>🎮 Messy Room</h2>
-                <p>In my Multimedia Computing course, I was tasked with creating a game using the Pygame library. With two partners, I created a game titled, "Messy Room," where items in a room were randomly placed and had to be sorted to different locations in a bedroom. The player has a limited time amount in order to complete the game.</p>
-                <p><strong>Skills:</strong> Python, Pygame, Game Design</p>
-                <a href="https://github.com/serenawarner/Messy_Room" target="_blank">GitHub</a>
-            </div>
+        <article class="project-card">
+          <div class="project-top">
+            <h2>🏉 Predicting Rugby Match Outcomes with Machine Learning</h2>
+            <span class="badge">Machine Intelligence</span>
+          </div>
+          <p>
+            With a partner, I built models to predict rugby match outcomes. Our best results came from a decision tree model,
+            reaching ~75% accuracy.
+          </p>
+          <p class="skills"><strong>Skills:</strong> Python, scikit-learn, Decision Trees, Logistic Regression</p>
+        </article>
 
-            <script>
-                let current = 0;
-                const cards = document.querySelectorAll(".carousel-card");
+        <article class="project-card">
+          <div class="project-top">
+            <h2>🎮 Messy Room</h2>
+            <span class="badge">Multimedia Computing</span>
+          </div>
+          <p>
+            For a course project, my team built a timed Pygame sorting game where randomly placed items must be moved to their correct locations.
+          </p>
+          <p class="skills"><strong>Skills:</strong> Python, Pygame, Game Design</p>
+          <div class="project-links">
+            <a href="https://github.com/serenawarner/Messy_Room" target="_blank" rel="noopener noreferrer">Repository</a>
+          </div>
+        </article>
 
-                function showCard(index) {
-                    cards.forEach((card, i) => {
-                    card.classList.toggle("active", i === index);
-                    });
-                }
-
-                function nextCard() {
-                    current = (current + 1) % cards.length;
-                    showCard(current);
-                }
-
-                function prevCard() {
-                    current = (current - 1 + cards.length) % cards.length;
-                    showCard(current);
-                }
-
-                // Initial display
-                showCard(current);
-            </script>
-
-            <div class="carousel-buttons">
-                <button onclick="prevCard()">⟵ Prev</button>
-                <button onclick="nextCard()">Next ⟶</button>
-            </div>
-            </div>
-
-            
-
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
