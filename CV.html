@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CV - Serena Warner</title>
+    <title>CV / Resume - Serena Warner</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,33 +11,52 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About Me</a>
-      <a href="research.html">Research</a>
-      <a href="CV.html" class="active">CV</a>
+      <a href="research.html">Projects</a>
+      <a href="CV.html" class="active">CV / Resume</a>
       <a href="contact.html">Contact Me</a>
       <a href="fun.html">Fun</a>
     </nav>
 
     <div class="content">
       <div class="page-header">
-        <h1>Curriculum Vitae</h1>
-        <p>Download the PDF or view the latest version below.</p>
+        <h1>CV & Resume</h1>
+        <p>Download or preview either version below.</p>
       </div>
 
-      <div class="cv-actions">
-        <a href="CV.pdf" download class="download-btn">📝 Download PDF</a>
-        <a href="https://docs.google.com/document/d/1PAcYpHsAp1wVnV4WxRDk7C9djr8YeKCv5Rb57UiywP0/edit"
-           target="_blank" rel="noopener noreferrer" class="cv-link">
-          Open in Google Docs
-        </a>
+      <!-- RESUME SECTION -->
+      <div class="cv-section">
+        <h2>Resume (Industry-Focused)</h2>
+
+        <div class="cv-actions">
+          <a href="Resume_Warner_Serena.pdf" download class="download-btn">📄 Download Resume (PDF)</a>
+        </div>
+
+        <div class="cv-frame">
+          <iframe
+            src="Resume_Warner_Serena.pdf"
+            title="Serena Warner Resume Preview"
+            loading="lazy">
+          </iframe>
+        </div>
       </div>
 
-      <div class="cv-frame">
-        <iframe
-          src="https://docs.google.com/document/d/1PAcYpHsAp1wVnV4WxRDk7C9djr8YeKCv5Rb57UiywP0/preview"
-          title="Serena Warner CV Preview"
-          loading="lazy">
-        </iframe>
+      <!-- CV SECTION -->
+      <div class="cv-section">
+        <h2>Curriculum Vitae (Academic)</h2>
+
+        <div class="cv-actions">
+          <a href="CV_Warner_Serena.pdf" download class="download-btn">📝 Download CV (PDF)</a>
+        </div>
+
+        <div class="cv-frame">
+          <iframe
+            src="CV_Warner_Serena.pdf"
+            title="Serena Warner CV Preview"
+            loading="lazy">
+          </iframe>
+        </div>
       </div>
+
     </div>
   </body>
 </html>

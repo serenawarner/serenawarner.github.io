@@ -11,19 +11,19 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About Me</a>
-      <a href="research.html" class="active">Research</a>
-      <a href="CV.html">CV</a>
+      <a href="research.html" class="active">Projects</a>
+      <a href="CV.html">CV / Resume</a>
       <a href="contact.html">Contact Me</a>
       <a href="fun.html">Fun</a>
     </nav>
 
     <div class="content">
       <div class="page-header">
-        <h1>Research & Projects</h1>
+        <h1>Projects & Research</h1>
         <p>
-          My research interests focus on understanding diverse human experiences through cognition and computational methods.
-          I’m especially interested in cognitive personality, neurodivergent experiences with AI, and models that support interpersonal understanding
-          (e.g., predicting perceived tone in messages).
+          Selected work in data analysis, statistical modeling, and interpretable machine learning.
+          I’m particularly interested in computational approaches to understanding human behavior,
+          cognition, and identity — and in building models that support clearer, more thoughtful analysis.
         </p>
       </div>
 
@@ -31,15 +31,17 @@
 
         <article class="project-card featured">
           <div class="project-top">
-            <h2>🧠 Modeling the Eight Cognitive Functions Using Carl Jung and the Big Five Taxonomy</h2>
+            <h2>🧠 Modeling Behavioral Dimensions from Large-Scale Trait Data</h2>
             <span class="badge">Senior Independent Study</span>
           </div>
           <p>
-            This Independent Study project uses computational modeling to estimate Jungian cognitive functions from Big Five personality data.
-            Using these proxy estimates, I apply PCA to explore whether the eight cognitive functions reduce to fewer interpretable dimensions.
-            This work investigates how machine learning can be used to revisit and empirically test long-standing psychological theories.
+            This project analyzes large-scale personality trait data (1M+ rows) to construct theory-informed
+            cognitive variables and examine latent structure. I apply Principal Component Analysis (PCA)
+            and simulation-based validation to test whether derived variables reflect fewer underlying dimensions.
+            The goal is to evaluate interpretability and structure in behavioral data using transparent,
+            statistically grounded methods.
           </p>
-          <p class="skills"><strong>Skills:</strong> Python, pandas, NumPy, Matplotlib, scikit-learn, PCA</p>
+          <p class="skills"><strong>Skills:</strong> Python, pandas, NumPy, scikit-learn, PCA, Monte Carlo Simulation, Data Visualization</p>
           <div class="project-links">
             <a href="#" class="disabled" aria-disabled="true">Paper in progress</a>
           </div>
@@ -47,14 +49,15 @@
 
         <article class="project-card">
           <div class="project-top">
-            <h2>🎭 Predicting Myers-Briggs Types with Cognitive Functions and Text Input</h2>
+            <h2>🎭 Text-Based Personality Classification</h2>
             <span class="badge">Junior Independent Study</span>
           </div>
           <p>
-            This Junior Independent Study project applies supervised machine learning (SVM + Logistic Regression) to classify Myers-Briggs personality types based on forum text.
-            Instead of the four-letter MBTI format, the project uses cognitive function theory (Carl Jung; John Beebe) to model six function-based classification schemes.
+            Built supervised machine learning models (SVM and Logistic Regression) to classify personality types
+            from forum text. Applied TF-IDF vectorization for feature extraction and evaluated performance
+            using cross-validation and F1-score metrics across multiple classification schemes.
           </p>
-          <p class="skills"><strong>Skills:</strong> Python, pandas, Matplotlib, NumPy, NLP, SVM, Logistic Regression</p>
+          <p class="skills"><strong>Skills:</strong> Python, NLP, TF-IDF, SVM, Logistic Regression, scikit-learn</p>
           <div class="project-links">
             <a href="Junior_I_S__Final.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
             <a href="https://github.com/serenawarner/Myers-Briggs-Modeling" target="_blank" rel="noopener noreferrer">Repository</a>
@@ -67,11 +70,11 @@
             <span class="badge">Applied Statistics</span>
           </div>
           <p>
-            Using BRFSS data (CDC), I investigated medical and lifestyle factors associated with diabetes diagnosis.
-            Through logistic regression, I found relationships with age, high blood pressure, high cholesterol, physical activity,
-            heavy alcohol consumption, and income.
+            Conducted logistic regression analysis using CDC BRFSS data to identify statistically significant
+            predictors of diabetes diagnosis. Interpreted coefficients and evaluated model fit to isolate
+            key medical and lifestyle risk factors.
           </p>
-          <p class="skills"><strong>Skills:</strong> R, Statistics, Logistic Regression</p>
+          <p class="skills"><strong>Skills:</strong> R, Logistic Regression, Statistical Modeling, Hypothesis Testing</p>
           <div class="project-links">
             <a href="Final_SerenaWarner.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
           </div>
@@ -79,14 +82,14 @@
 
         <article class="project-card">
           <div class="project-top">
-            <h2>🏉 Predicting Rugby Match Outcomes with Machine Learning</h2>
+            <h2>🏉 Predicting Rugby Match Outcomes</h2>
             <span class="badge">Machine Intelligence</span>
           </div>
           <p>
-            With a partner, I built models to predict rugby match outcomes. Our best results came from a decision tree model,
-            reaching ~75% accuracy.
+            Developed and evaluated decision tree and regression-based models to predict rugby match outcomes.
+            Achieved approximately 75% accuracy through feature engineering and model tuning.
           </p>
-          <p class="skills"><strong>Skills:</strong> Python, scikit-learn, Decision Trees, Logistic Regression</p>
+          <p class="skills"><strong>Skills:</strong> Python, scikit-learn, Decision Trees, Model Evaluation</p>
         </article>
 
         <article class="project-card">
@@ -95,7 +98,8 @@
             <span class="badge">Multimedia Computing</span>
           </div>
           <p>
-            For a course project, my team built a timed Pygame sorting game where randomly placed items must be moved to their correct locations.
+            Collaboratively developed a timed Pygame sorting game where randomly placed items must be
+            categorized correctly within a limited time frame.
           </p>
           <p class="skills"><strong>Skills:</strong> Python, Pygame, Game Design</p>
           <div class="project-links">
